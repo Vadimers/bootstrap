@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.header-bg {
+    background-color: #f8f9fa;
+    padding: 15px 0;
+}
+
+.footer-bg {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+.vertical-slide {
+    height: 400px;
+    object-fit: cover;
+}
+
+@media (max-width: 991px) {
+    .right-column {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-md-4 {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .col-md-8 {
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
